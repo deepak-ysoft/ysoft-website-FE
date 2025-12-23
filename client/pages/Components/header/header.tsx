@@ -24,7 +24,6 @@ const HeaderSection: React.FC<HeaderSectionProps> = ({ scrolled = false }) => {
       </div>
     );
   }
-
   /* ---------------- DESKTOP: ABOUT ---------------- */
   function AboutDropdown() {
     const [open, setOpen] = useState(false);
